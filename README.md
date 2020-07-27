@@ -7,6 +7,9 @@ Project Link - https://www.mkyong.com/java/java-jmh-benchmark-tutorial/
 ## How to run this project?
 ```
 $ git clone https://github.com/mkyong/jmh-benchmark
-$ mvn package 
+$ mvn package
 $ java -jar target\benchmarks.jar BenchmarkLoop
 ```
+
+not working in Eclipse
+-->mvn clean install

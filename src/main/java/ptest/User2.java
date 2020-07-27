@@ -2,7 +2,7 @@ package ptest;
 
 import java.math.BigDecimal;
 
-public class User {
+public class User2 {
 	private int id;
 	private String name;
 	private String name1;
@@ -16,7 +16,7 @@ public class User {
 	private String name9;
 	private String name10;
 	private String address;
-	private int age;
+	private BigDecimal age;
 	private BigDecimal income;
 	private String introduce;
 	private String nickName;
@@ -39,10 +39,10 @@ public class User {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public int getAge() {
+	public BigDecimal getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(BigDecimal age) {
 		this.age = age;
 	}
 	public BigDecimal getIncome() {
