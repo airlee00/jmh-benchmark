@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.springframework.beans.BeanUtils;
 
 public class BeanUtilsTest {
-
+ //테스트 입니다. 
     public static void main(String[] args) throws IllegalAccessException, InvocationTargetException  {
 
     	Map<String, Object> map = createMapListForTest() ;
